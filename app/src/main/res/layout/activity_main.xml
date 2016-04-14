@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/fundo">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="150dp"
+        android:paddingBottom="70dp"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/boasVindas"
+            android:id="@+id/boasVindas"
+            android:paddingBottom="50dp"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/montarCardapio"
+            android:id="@+id/montarCardapio"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:onClick="montarCardapio"
+            android:background="#8B8989"
+            android:textColor="#FFFFFF"
+         />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gerarPedido"
+            android:id="@+id/gerarPedido"
+            android:onClick="gerarPedido"
+            android:background="#8B8989"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>

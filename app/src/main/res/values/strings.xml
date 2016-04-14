@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Final_Restaurante</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="boasVindas">Bem vindo ao Controle de Cardapio Mobile</string>
+    <string name="montarCardapio">MONTAR CARDAPIO</string>
+    <string name="gerarCardapio" />
+    <string name="gerarPedido">GERAR PEDIDO</string>
+    <string name="title_activity_activity_montar_cardapio">activity_montar_cardapio</string>
+    <string name="title_activity_activity_gerar_pedido">activity_gerar_pedido</string>
+    <string name="inicio">CADASTRAR ITEM DO CARDAPIO</string>
+    <string name="descricao">DESCRIÇÃO:</string>
+    <string name="tipo">TIPO DE PRODUTO:</string>
+    <string name="valor">VALOR:</string>
+    <string name="inserir"><![CDATA[> INSERIR]]></string>
+    <string name="cancelar"><![CDATA[> CANCELAR]]></string>
+    <string name="todos">SEU CARDAPIO:</string>
+    <string name="title_activity_activity_pedido_pronto">activity_pedido_pronto</string>
+</resources>
